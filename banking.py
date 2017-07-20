@@ -16,47 +16,47 @@ if __name__ == "__main__":
 	input_path = raw_input("Ross wants you to update his savings account balance c500 \n")
 	input_path = input_path.replace(" ","")
 	if(input_path != "Ross['Savings']=500"):
-		print 'Incorrect update to account'
+		print ('Incorrect update to account')
 	else:
-		print 'Account Updated \n'
+		print ('Account Updated \n')
 		score += 1
-		print 'Your score is: ' + str(score) + '/1 \n'
+		print ('Your score is: ' + str(score) + '/1 \n')
 
 	input_path = raw_input("Joey wants you to update his checking account balance to 600 \n")
 	input_path = input_path.replace(" ","")
 	if(input_path != "Joey['Checking']=600"):
-		print 'Incorrect update to account'
+		print ('Incorrect update to account')
 	else:
-		print 'Account Updated \n'
+		print ('Account Updated \n')
 		score += 1
-		print 'Your score is: ' + str(score) + '/2 \n'
+		print ('Your score is: ' + str(score) + '/2 \n')
 
 	input_path = raw_input("Chandler wants you to update Monica's name to 'Mon' \n")
 	input_path = input_path.replace(" ","")
 	if(input_path != "Monica['Name']='Mon'"):
-		print 'Incorrect update to account'
+		print ('Incorrect update to account')
 	else:
-		print 'Account Updated \n'
+		print ('Account Updated \n')
 		score += 1
-		print 'Your score is: ' + str(score) + '/' + '3 \n'
+		print ('Your score is: ' + str(score) + '/' + '3 \n')
 		
 	input_path = raw_input("Phoebe wants you to update Rachel's savings account balance to 0 \n")
 	input_path = input_path.replace(" ","")
 	if(input_path != "Rachel['Savings']=0"):
-		print 'Incorrect update to account'
+		print ('Incorrect update to account')
 	else:
-		print 'Account Updated \n'
+		print ('Account Updated \n')
 		score += 1
-		print 'Your score is: ' + str(score) + '/' + '4 \n'
+		print ('Your score is: ' + str(score) + '/' + '4 \n')
 
 	input_path = raw_input("Phoebe wants you to update her ID 1312466070 \n")
 	input_path = input_path.replace(" ","")
 	if(input_path != "Phoebe['ID']=1312466070"):
-		print 'Incorrect update to account'
+		print ('Incorrect update to account')
 	else:
-		print 'Account Updated \n'
+		print ('Account Updated \n')
 		score += 1
-		print 'Your score is: ' + str(score) + '/' + '5 \n'
+		print ('Your score is: ' + str(score) + '/' + '5 \n')
 
 	
 	
